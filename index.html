@@ -4,10 +4,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Agenda de contactos</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Lista de contactos</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a data-target="modalAdd" class="waves-effect waves-light btn modal-trigger"><i class="material-icons">add</i></a></li>
+					<li><a href="#modalSearch" class="waves-effect waves-light btn modal-trigger"><i class="material-icons">search</i></a></li>
+					<li><a href="#">jQuery</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!--cuerpo de pagina-->
+	<main>
+		<!--modal add-->
+		<div id="modalAdd" class="modal">
+			<div class="modal-content">
+				<h4>Holito soy la jose</h4>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
