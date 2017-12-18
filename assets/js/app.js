@@ -2,6 +2,7 @@ var contact = '';
 $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
+<<<<<<< HEAD
     $('.modal-tirgger').modal();
 
     $('.left').click(function(){
@@ -23,5 +24,13 @@ $(document).ready(function(){
       $('.trash').click(function(){
         $(this).parent().remove();
       })
+=======
+
+    $('.left').click(function(){
+    	console.log('holito');
+    	var name = $('#name').val();
+    	var cell = $('#cellphone').val();
+    	
+>>>>>>> db41cb50f9b9a38c5c93b620dd12eebad5b38d1f
     })
   });
